@@ -7,35 +7,16 @@
 /*--------------------------------------------------------------
 # BY ME
 --------------------------------------------------------------*/
-.titulo{
-  text-align: center;
-}
-.tentei{
-  background-color: #00BFFF;
-}
-.cor{
-  width: 100%;
-  height: auto;
-  background-color: #00BFFF;
-}
-.img{
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
+
 a{
   text-decoration: none !important;
 }
-
-.img2{
-
-  width: 350px;
-  height: 350px;
-  border-left: 80px;
-  border-right: 80px;
+.noticias{
+  /* border: solid 1px black; */
+  margin-right: auto;
 }
 
-.logo1{
+.logo{
   /*border-radius: 50%;*/
   width: 100px;
   height: 100px;
@@ -140,6 +121,13 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.ft{
+  color:black;
+}
+ft:hover{
+  color: #00BFFF;
 }
 
 /*--------------------------------------------------------------
