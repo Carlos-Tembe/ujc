@@ -17,9 +17,9 @@ a{
 }
 
 .logo{
-  /*border-radius: 50%;*/
-  width: 100px;
-  height: 100px;
+  border-radius:5%;
+  width:100px;
+  height:50px;
 }
 * {box-sizing:border-box}
 /*--------------------------------------------------------------
@@ -109,7 +109,7 @@ body {
 }
 .links:hover{
 font-weight: bold;
-color:#6dbaf8 ;
+color:#55ACEE ;
 }
 a {
   /* color: #00BFFF; */
@@ -118,7 +118,7 @@ a {
 
 a:hover {
   /*color: #86db9f;*/
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
@@ -311,7 +311,7 @@ ft:hover{
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #37423b;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -324,7 +324,7 @@ ft:hover{
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   /*color: #5fcf80;*/
-  color: #00BFFF;
+  color: black;
 }
 
 .navbar .dropdown ul {
@@ -337,7 +337,7 @@ ft:hover{
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background:rgb(68, 61, 61);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -360,7 +360,7 @@ ft:hover{
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   /*color: #5fcf80;*/
-  color: #00BFFF;
+  color:#55ACEE;
 }
 
 .navbar .dropdown:hover > ul {
