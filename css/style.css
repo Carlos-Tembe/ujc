@@ -107,16 +107,20 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.links:hover{
+font-weight: bold;
+color:#6dbaf8 ;
+}
 a {
-  color: #5fcf80;
+  /* color: #00BFFF; */
   text-decoration: none;
 }
 
 a:hover {
   /*color: #86db9f;*/
-  color: #00BFFF;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
