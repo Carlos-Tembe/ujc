@@ -1657,3 +1657,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+nav ul li a{
+  text-transform: uppercase;
+}
