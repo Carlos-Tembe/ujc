@@ -1750,4 +1750,12 @@ color: #00BFFF;
   background: #3ac162;
   color: #fff;
   text-decoration: none;
+<<<<<<< HEAD
 } */
+=======
+}
+
+nav ul li a{
+  text-transform: uppercase;
+}
+>>>>>>> 33efa2658f69af1d81cc2a8ba9a5bc739bede371
