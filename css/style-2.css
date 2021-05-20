@@ -1,0 +1,41 @@
+    .navbar{
+      padding-top: 20px;
+    }
+    .nav-link{
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #000 !important;
+      border-bottom: 4px solid #fff;
+      font-size: 16px;
+    }
+
+    .nav-link:hover{
+      border-bottom: 4px solid blue;
+    }
+
+    .navbar-default{
+      background-color: #fff;
+      border: none;
+      border-radius: 0;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+    }
+
+    .navbar-brand{
+      padding-left: 100px;
+    }
+
+    .social-head{
+      padding-top: 10px;
+      padding-right: 50px;
+    }
+
+    .social-head a img{
+        height: 18px;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
