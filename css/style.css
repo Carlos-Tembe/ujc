@@ -119,6 +119,159 @@ h1, h2, h3, h4, h5, h6 {
 ft:hover{
   color: #00BFFF;
 }
+/* POR SER APROVADO */
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+
+.menu {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+.logo{
+    margin-top: 2px;
+    margin-left: 350px;
+    border-radius:5%;
+width:100px;
+height:50px;
+
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: right;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+.contactos{
+    background-color: #e5e5e5;
+    padding:0px;
+    text-align:center;
+}
+.menus{
+  background-color:#6dbaf8;
+  /* padding:3px; */
+  /* text-align:center; */
+}
+/* .topnav {
+  overflow: hidden;
+  background-color: #55ACEE;
+  font-family: courier new;
+  width: 100%;
+  max-height: 100px;
+} */
+
+
+
+
+
+
+
+.blog .carousel-indicators {
+left: 0;
+top: auto;
+  bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
+/* ============ mobile view ============ */
+@media all and (max-width: 991px) {
+
+.offcanvas-header{ display:block; }
+
+.mobile-offcanvas{
+  visibility: hidden;
+  transform:translateX(-100%);
+  border-radius:0; 
+  display:block;
+  position: fixed;  top: 0; left:0;
+  height: 100%; width:80%;
+  z-index: 1200; 
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.mobile-offcanvas.show{
+  visibility: visible; 	transform: translateX(0);
+}
+.mobile-offcanvas .container, .mobile-offcanvas .container-fluid{
+  display: block;
+}
+
+}	
+/* POR SER APROVADO */
+/* ============ mobile view .end// ============ */
+
+/* ============ desktop view ============ */
+
+/* 
+@media all and (min-width: 992px) {
+.navbar .nav-item .dropdown-menu {
+    display: none;
+}
+
+.navbar .nav-item:hover .nav-link {
+    opacity: 1;
+    transition: all .2s;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+    transition: all .2s;
+}
+} */
+
+/* ============ desktop view .end// ============ */
 
 * {
   box-sizing: border-box;
@@ -453,7 +606,7 @@ background: #707070;
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   /* color:#55ACEE; */
 }
 
@@ -1751,11 +1904,18 @@ color: #00BFFF;
   color: #fff;
   text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 } */
 =======
 }
+=======
+}*/
+>>>>>>> b01f04b28f433b86da1f6e6a2fcf377d8780bef9
 
 nav ul li a{
   text-transform: uppercase;
 }
+<<<<<<< HEAD
 >>>>>>> 33efa2658f69af1d81cc2a8ba9a5bc739bede371
+=======
+>>>>>>> b01f04b28f433b86da1f6e6a2fcf377d8780bef9
