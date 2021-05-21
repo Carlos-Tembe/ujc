@@ -10,9 +10,10 @@
   padding:0px;
   text-align:center;
 }
-a{
-  text-decoration: none !important;
+.btns{
+  background-color: #55ACEE;
 }
+
 .noticias{
   margin-right: auto;
 }
@@ -102,30 +103,25 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-.links:hover{
+/* .links:hover{
 font-weight: bold;
 color:#55ACEE ;
-}
-a {
-  text-decoration: none;
-}
+} */
+ /* a {
+  color: #fff;
+}  */
 
-a:hover {
+/* a:hover {
   color: black;
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
-.ft{
-  color:black;
-}
-ft:hover{
-  color: #00BFFF;
-}
+
 /* POR SER APROVADO */
 * {
   box-sizing: border-box;
@@ -187,10 +183,10 @@ height:50px;
     padding:0px;
     text-align:center;
 }
-.menus{
+/*.menus{
   background-color:#6dbaf8;
   /* padding:3px; */
-  /* text-align:center; */
+  /* text-align:center; 
 }
 /* .topnav {
   overflow: hidden;
@@ -287,14 +283,14 @@ body{
   margin: 0px;
 }
 
-.menu {
+/* .menu {
   background-color: #e5e5e5;
   float: left;
   width: 20%;
   padding: 15px;
   margin-top: 7px;
   text-align: center;
-}
+} */
 .logo{
     margin-top: 2px;
     margin-left: 350px;
@@ -576,11 +572,11 @@ background: #707070;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
-  /*color: #5fcf80;*/
-  /* color: #55ACEE; */
-}
-
+/* .navbar a:hover, .navbar .active, .navbar li:hover > a {
+  color: #5fcf80;
+  font
+} */
+/*altrat aspectos da nav*/
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -710,7 +706,7 @@ background: #707070;
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   /*color: #5fcf80;*/
-  color: #00BFFF;
+  /* color: #00BFFF; */
 }
 
 .navbar-mobile .getstarted {
@@ -740,11 +736,11 @@ background: #707070;
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-
+/* 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  /*color: #5fcf80;*/
-color: #00BFFF;
-}
+  color: #5fcf80;
+ color: #00BFFF;
+} */
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -1913,16 +1909,7 @@ color: #00BFFF;
 <<<<<<< HEAD
 <<<<<<< HEAD
 } */
-=======
-}
-=======
-}*/
->>>>>>> b01f04b28f433b86da1f6e6a2fcf377d8780bef9
-
 nav ul li a{
   text-transform: uppercase;
 }
-<<<<<<< HEAD
->>>>>>> 33efa2658f69af1d81cc2a8ba9a5bc739bede371
-=======
->>>>>>> b01f04b28f433b86da1f6e6a2fcf377d8780bef9
+
