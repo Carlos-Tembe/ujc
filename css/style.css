@@ -1,9 +1,26 @@
 /* HISTORIAL*/
+
+/* .h-p {
+  line-height: 2;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+.cData {
+  padding: 10px;
+  size: 20px;
+  font-size: 22px;
+  background: #11D4ff;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 3px;
+  border-radius: 6px;
+}
 .h-p
 {
   line-height: 2;
   text-align:  justify;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .contactos{
   background-color: #e5e5e5;
@@ -102,6 +119,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+}
+.links{
+  color: white;
 }
 /* .links:hover{
 font-weight: bold;
