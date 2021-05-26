@@ -1,0 +1,7 @@
+/* Efeitos do texto quando o mouse estive em cima da Imagem */ 
+#content ul li:hover span{
+    border: 1px solid f00;
+    opacity:1;
+    -moz-opacity:1;
+    filter:alpha(opacity=100);
+    }
