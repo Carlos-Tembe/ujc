@@ -1,2 +1,2 @@
-escuro - #2D313C
+escuro (rodape e barra superior) - #2D313C
 azul - #0098F7
