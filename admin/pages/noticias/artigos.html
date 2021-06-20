@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>UJC | Cursos</title>
+        <title>UJC | Noticias</title>
 
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet"
@@ -852,12 +852,12 @@
                     <div class="container-fluid">
                         <div class="row mb-2">
                             <div class="col-sm-6">
-                                <h1>Cursos da UJC</h1>
+                                <h1>Noticias da UJC</h1>
                             </div>
                             <div class="col-sm-6">
                                 <ol class="breadcrumb float-sm-right">
                                     <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                                    <li class="breadcrumb-item active">Cursos</li>
+                                    <li class="breadcrumb-item active">Artigos</li>
                                 </ol>
                             </div>
                         </div>
@@ -871,29 +871,63 @@
                             <div class="col-12">
                                 <div class="card card-primary">
                                     <div class="card-header">
-                                        <h3 class="card-title">Cursos Disponiveis</h3>
+                                        <h3 class="card-title">Artigos Disponiveis</h3>
                                     </div>
                                     <!-- /.card-header -->
                                     <div class="card-body">
                                         <table id="example1" class="table table-bordered table-striped">
                                             <thead>
                                                 <tr>
-                                                    <th>Nome do Curso</th>
-                                                    <th>Faculdade</th>
-                                                    <th>Área</th>
-                                                    <th>Nível</th>
-                                                    <th>Duração</th>
+                                                    <th>Autor</th>
+                                                    <th>Titulo</th>
+                                                    <th>Data De Publicação</th>
+                                                    <th>Estado</th>
+                                                    <th>Data de Actualização</th>
+                                                    <th>Acesso</th>
+                                                    <th>Conteudo</th>
                                                     <th>Acções</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Engenharia Informática</td>
-                                                    <td>Faculdade de Ciência e Tecnologia
+                                                    <td>Laila Amosse</td>
+                                                    <td>Portal UJC
                                                     </td>
-                                                    <td>Tecnologias</td>
-                                                    <td>Superior</td>
-                                                    <td>4 Anos</td>
+                                                    <td>21/01/2020</td>
+                                                    <td>Activo</td>
+                                                    <td>21/01/2021</td>
+                                                    <td>Privado
+                                                    </td>
+                                                    <td>akkajsjsjsjsjsjajajjajajajjajajajjaj</td>
+                                                    <td class="project-actions text-right">
+                                                        <a class="btn btn-primary btn-sm" href="#">
+                                                            <i class="fas fa-folder">
+                                                            </i>
+                                                            Ver
+                                                        </a>
+                                                        <a class="btn btn-info btn-sm" href="#">
+                                                            <i class="fas fa-pencil-alt">
+                                                            </i>
+                                                            Editar
+                                                        </a>
+                                                        <a class="btn btn-danger btn-sm" href="#">
+                                                            <i class="fas fa-trash">
+                                                            </i>
+                                                            Apagar
+                                                        </a>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Laila Amosse</td>
+                                                    <td>Portal UJC
+                                                    </td>
+                                                    <td>21/01/2020</td>
+                                                    <td>Activo</td>
+                                                    <td>21/01/2021</td>
+                                                    <td>Privado
+                                                    </td>
+                                                    <td>akkajsjsjsjsjsjajajjajajajjajajajjaj</td>
                                                     <td class="project-actions text-right">
                                                         <a class="btn btn-primary btn-sm" href="#">
                                                             <i class="fas fa-folder">
@@ -913,37 +947,15 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Relações Internacionais e Diplomacia</td>
-                                                    <td>Escola Superior de Internacionais e Diplomacia
+                                                    <td>Hélder Josué</td>
+                                                    <td>Portal UJC
                                                     </td>
-                                                    <td>Ciêncas Politicas</td>
-                                                    <td>Superior</td>
-                                                    <td>4 Anos</td>
-                                                    <td class="project-actions text-right">
-                                                        <a class="btn btn-primary btn-sm" href="#">
-                                                            <i class="fas fa-folder">
-                                                            </i>
-                                                            Ver
-                                                        </a>
-                                                        <a class="btn btn-info btn-sm" href="#">
-                                                            <i class="fas fa-pencil-alt">
-                                                            </i>
-                                                            Editar
-                                                        </a>
-                                                        <a class="btn btn-danger btn-sm" href="#">
-                                                            <i class="fas fa-trash">
-                                                            </i>
-                                                            Apagar
-                                                        </a>
+                                                    <td>21/01/2020</td>
+                                                    <td>Activo</td>
+                                                    <td>21/01/2021</td>
+                                                    <td>Privado
                                                     </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Administração Pública</td>
-                                                    <td>Escola Superior de Governanção
-                                                    </td>
-                                                    <td>Administração</td>
-                                                    <td>Superior</td>
-                                                    <td>4 Anos</td>
+                                                    <td>akkajsjsjsjsjsjajajjajajajjajajajjaj</td>
                                                     <td class="project-actions text-right">
                                                         <a class="btn btn-primary btn-sm" href="#">
                                                             <i class="fas fa-folder">
@@ -1020,8 +1032,7 @@
         <script>
             $(function () {
                 $("#example1").DataTable({
-                    "responsive": true, "lengthChange": false, "autoWidth": false,
-                    "buttons": ["excel", "pdf", "print", "colvis"]
+                    "responsive": true, "lengthChange": false, "autoWidth": false
                 }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
                 $('#example2').DataTable({
                     "paging": true,
