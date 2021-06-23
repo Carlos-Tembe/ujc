@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>UJC | Adicionar Artigo</title>
+        <title>UJC | Adicionar Evento</title>
 
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet"
@@ -865,12 +865,12 @@
                     <div class="container-fluid">
                         <div class="row mb-2">
                             <div class="col-sm-6">
-                                <h1>Adicionar Artigo</h1>
+                                <h1>Adicionar Evento</h1>
                             </div>
                             <div class="col-sm-6">
                                 <ol class="breadcrumb float-sm-right">
                                     <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                                    <li class="breadcrumb-item active">Adicionar Artigo</li>
+                                    <li class="breadcrumb-item active">Adicionar Evento</li>
                                 </ol>
                             </div>
                         </div>
@@ -883,28 +883,40 @@
                         <div class="row">
                             <!-- SELECT2 EXAMPLE -->
                             <form action="">
-                                <div class="card card-primary" style="margin-left: 400px; width: 100%;padding: 10px;">
+                                <div class="card card-primary" style="margin-left: 320px; width: 100%;padding: 10px;">
                                     <div class="card-header">
-                                        <h3 class="card-title">Detalhes do Artigo</h3>
+                                        <h3 class="card-title">Detalhes do Evento</h3>
                                     </div>
                                     <!-- /.card-header -->
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label>Autor</label>
+                                                    <label>Titulo do Evento</label>
                                                     <input type="text" class="form-control" id="exampleInputText"
-                                                        placeholder="Autor do Artigo">
+                                                        placeholder="Titulo do Evento">
                                                 </div>
                                                 <!-- /.form-group -->
                                                 <div class="form-group">
-                                                    <label>Titulo</label>
+                                                    <label>Descrição</label>
                                                     <input type="text" class="form-control" id="exampleInputText"
-                                                        placeholder="Titulo do Artigo">
+                                                        placeholder="Breve descrição">
                                                 </div>
+
                                                 <div class="form-group">
-                                                    <label>Data de Actualização</label>
-                                                    <input type="date" name="dataAct" id="dataAct" class="form-control">
+                                                    <label for="exampleInputFile">Foto do Evento</label>
+    
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                        <label class="custom-file-label" for="exampleInputFile">Escolher
+                                                            arquivo
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label>Hora de Inicio</label>
+                                                    <input type="time" class="form-control" id="exampleInputText">
                                                 </div>
 
                                                 <!-- /.form-group -->
@@ -912,40 +924,31 @@
                                             <!-- /.col -->
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label>Data de Publicação</label>
-                                                    <input type="date" name="dataAct" id="dataAct" class="form-control">
+                                                    <label>Data de Inicio</label>
+                                                    <input type="date" name="dataIni" id="dataAct" class="form-control">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label>Data de Término</label>
+                                                    <input type="date" name="dataTer" id="dataAct" class="form-control">
                                                 </div>
                                                 <!-- /.form-group -->
                                                 <div class="form-group">
-                                                    <label>Estado</label>
-                                                    <select class="form-control select2" style="width: 100%;">
-                                                        <option>Nenhum</option>
-                                                        <option>Activo</option>
-                                                        <option>Depreciado</option>
-                                                        <option>Offline</option>
-                                                    </select>
+                                                    <label>Autor</label>
+                                                    <input type="text" class="form-control" id="exampleInputText"
+                                                        placeholder="Autor do Artigo" disabled>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label>Acesso</label>
-                                                    <select class="form-control select2" style="width: 100%;">
-                                                        <option>Nenhum</option>
-                                                        <option>Privado</option>
-                                                        <option>Publico</option>
-
-                                                    </select>
+                                                    <label>Hora de Fim</label>
+                                                    <input type="time" class="form-control" id="exampleInputText">
                                                 </div>
                                                 <!-- /.form-group -->
                                             </div>
                                             <!-- /.col -->
                                         </div>
                                         <!-- /.row -->
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label>Conteudo</label>
-                                                <textarea class="form-control" rows="5" placeholder="Texto"></textarea>
-                                            </div>
-                                        </div>
+                                      
                                     </div>
                                     <div class="card-footer">
                                         <button type="submit" class="btn btn-primary" onclick=alerta()>Submeter</button>
